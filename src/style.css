@@ -1,5 +1,35 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(53, 162, 28);
+    box-sizing: border-box;
+}
+.card{
+    font-size: 150px;
+    text-align: center;
+    display: flex;
+    height: 400px;
+    width: 275px;
+    padding-top: 90px;
+    border-radius: 20px;
+    margin: 10px auto;
+    position: relative;
+
+    .top-suit{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        font-size: 70px;
+    }
+    .bottom-suit{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        font-size: 70px;
+    }
+}
+.btn{
+    align-content: center;
 }
